@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="16.0" depth="10.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>structures/egyptian_wallset_stone</SelectionGroupName>
+    <SpecificName>wmtt</SpecificName>
+    <History>Egyptian wall battlements were constructed to mimic the appearance of a row of Egyptian shields.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/ptolemies/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>14.0</Length>
+  </WallPiece>
+</Entity>

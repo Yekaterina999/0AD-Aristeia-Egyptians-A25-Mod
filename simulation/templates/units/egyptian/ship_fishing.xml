@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SpecificName>mk</SpecificName>
+    <History>Fishing was a popular pasttime as well as a thriving industry in Late Kingdom Egypt.</History>
+    <Icon>units/ptol_ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/ptolemies/fishing_boat.xml</Actor>
+  </VisualActor>
+</Entity>

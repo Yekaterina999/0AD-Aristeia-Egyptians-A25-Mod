@@ -1,0 +1,7 @@
+{
+    "name": "salites",
+    "version": "1.2.34",
+    "label": "Salite Period Egyptians",
+    "description": "A civ pulled from Aristeia, Bronze Age mod",
+    "dependencies": ["0ad>=0.0.24"]
+}

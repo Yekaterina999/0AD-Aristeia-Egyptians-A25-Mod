@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_threshingfloor">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <SpecificName>xtyw</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      egyptian/gather_farming_irrigation
+      egyptian/gather_farming_shaduf
+      egyptian/gather_farming_canals
+      egyptian/gather_farming_nilometers
+    </Technologies>
+  </ProductionQueue>
+</Entity>

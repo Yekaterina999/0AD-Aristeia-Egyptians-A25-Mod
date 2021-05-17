@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/egyptian_farmstead2.dae</mesh>
+      <props>
+          <prop actor="props/special/eyecandy/hay_cart.xml" attachpoint="cart"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="food"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="above"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="under2"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="under"/>
+           <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="1"/>
+        
+        
+      </props>
+      <textures>        
+		<texture file="structural/ptol_struct.png" name="baseTex"/>
+        <texture file="structural/ptol_struct_norm.png" name="normTex"/>
+        <texture file="structural/ptol_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egyptian_farmstead.png" name="aoTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

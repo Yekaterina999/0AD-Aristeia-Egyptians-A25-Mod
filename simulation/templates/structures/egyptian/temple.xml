@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="19.0" depth="19.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SpecificName>Ara Per</SpecificName>
+    <History>Egypt was famous for its temples and its accompanying priestly class.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="17.5" depth="17.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      egyptian/heal_rate
+    </Technologies>  
+  </ProductionQueue>  
+  <VisualActor>
+    <Actor>structures/egyptian/temple.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>
